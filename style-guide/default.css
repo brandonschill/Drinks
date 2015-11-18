@@ -4,3 +4,11 @@ body {
 h1, h2, h3, h4, h5 {
   font-family: 'Muli', sans-serif;
 }
+div.fonts {
+  text-align: center;
+  padding: 50px;
+}
+div.colors {
+  text-align: center;
+  padding: 50px;
+}
