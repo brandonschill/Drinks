@@ -32,10 +32,11 @@ div.quicknav {
   font-size: 1.3em;
   padding: 20px;
   margin-right: 35px;
-}
-li {
   display: inline;
 }
 .input-group {
   margin-top: 50px;
+}
+li.navlist {
+  display: inline;
 }
