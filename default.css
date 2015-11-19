@@ -40,3 +40,15 @@ div.quicknav {
 li.navlist {
   display: inline;
 }
+div.recipe {
+  position: relative;
+}
+body {
+  font-family: 'EB garamond', serif;
+}
+h1, h2, h3, h4, h5 {
+  font-family: 'Gudea', sans-serif;
+}
+.button {
+  color: #cbc3bb;
+}
