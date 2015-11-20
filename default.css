@@ -1,6 +1,6 @@
 div.header {
-  height: 100px;
-  background-color: #cbc3bb;
+  height: 650px;
+  background-image: url(backgroundsm.jpg);
   color: #ffffff;
   text-align: right;
 }
@@ -51,4 +51,7 @@ h1, h2, h3, h4, h5 {
 }
 .button {
   color: #cbc3bb;
+}
+.body {
+  background-color: #cbc3bb;
 }
