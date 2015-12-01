@@ -145,7 +145,41 @@
       <div class="row">
         <h3>Reviews</h3>
           <div class="col-md-5">
-          <p>"I chose this drink because it seemed easy to make at home, but it tasted just like I was at a restaurant!  I highly recommend this drink for others who are unsure of their bartending skills." -Pam D.</p>
+          <p>"I chose this drink because it seemed easy to make at home, but it tasted just like I was at a restaurant!  I highly recommend this drink for others who are unsure of their bartending skills." -Pam B.</p>
+        </div>
+      </div>
+      <div class="row">
+        <h3>How's it taste?  Send us your review...</h3>
+          <div class="col-md-5">
+          <textarea class="form-control" rows="3">Your thoughts...</textarea>
+          <input class="btn btn-default" type="submit" value="Submit">
+          </div>
+      </div>
+    </div>
+  </div>
+  <div class="recipe">
+    <div class="container">
+      <div class="row">
+        <h1>Mojito</h1>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+          <img src="mojito.jpg" class="responsive" alt="Mojito">
+        </div>
+        <div class="col-md-3">
+          <ul>
+            <li>2 oz light rum</li>
+            <li>.75 oz simple syrup (1 sugar cube or a pack or two of your favorite sweetener can be substituted, or even agave nectar for fewer calories!)</li>
+            <li>3 lime wedges</li>
+            <li>8 to 10 mint leaves</li>
+            <li>Muddle mint in mixing tin (if you choose to muddle it in your serving glass, be exremely careful not to break the glass).  Add ice to the top, and squeeze and drop limes in.  Pour your rum and add your sweetener, give a quick shake or thorough stir and your mojito is complete!  </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <h3>Reviews</h3>
+          <div class="col-md-5">
+          <p>"I've made the mojito my official Saturday afternoon cocktail, and i recommend pairing it with anything smoky or salty, like a nice barbacoa." -Franky S.</p>
         </div>
       </div>
       <div class="row">
@@ -158,7 +192,38 @@
     </div>
   </div>
   <div class="sendrecipe">
-    <div class="container">
+    <div class="container-fluid">
+      <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Click to Send Us Your Recipe</button>
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Send us your own recipe!!</h4>
+          </div>
+          <div class="modal-body">
+            <p><i>Give us the exact measurements, build procedure, any garnishes and preferred serving method for your drink...</i>
+            <textarea class="form-control" rows="2"></textarea>
+            <form>
+            </p>
+              <div class="form-group">
+                <label for="InputName"><i>Your name</i></label>
+                <input type="name" class="form-control" id="InputName" placeholder="Name">
+              </div>
+              <div class="form-group">
+                <label for='InputEmail'><i>Your Email</i></label>
+                <input type="email" class="form-control" id="InputEmail" placeholder="Email">
+              </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Send</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 </body>
 </html>
