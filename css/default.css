@@ -1,5 +1,5 @@
 div.header {
-  height: 650px;
+  height: 620px;
   background-image: url(../images/backgroundsm.jpg);
 }
 
@@ -71,6 +71,20 @@ div.quicknav {
   display: inline;*/
 }
 
+.instructions {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.sendrecipe {
+  padding-top: 50px;
+  /*text-align: right;*/
+}
+
+.photos {
+  padding-top: 40px;
+}
+
 .input-group {
   margin-top: 50px;
 }
@@ -85,6 +99,7 @@ li.navlist {
 
 body {
   font-family: 'EB garamond', serif;
+  background-color: #e8e7e7;
 }
 
 h1, h2, h3, h4, h5 {
@@ -93,10 +108,6 @@ h1, h2, h3, h4, h5 {
 
 .button {
   color: #cbc3bb;
-}
-
-body {
-  background-color: #e8e7e7;
 }
 
 .dropdown {

@@ -53,11 +53,6 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-4">
-            <h1>  </h1>
-          </div>
-        </div>
-        <div class="row">
           <div class="col-md-3">
             <img src="images/drinklogo.png" alt="cocktaillogo">
           </div>
@@ -90,18 +85,25 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <p>~~ Our mission here at <em>Cocktail Hour</em> is to provide the average person with the ability to make delicious restaurant-quality cocktails at home, using only a few ingredients and minimal equipment.  All you need is a mixing tin with glass and a few ingredients and you can impress and please your friends or simply unwind after a long day.  It's cocktail hour!! ~~</p>
+          <p>~~ Our mission at <em>Cocktail Hour</em> is to provide the average person with the ability to make delicious restaurant-quality cocktails at home, using only a few ingredients and minimal equipment.  All you need is a mixing tin with glass and a few ingredients and you can impress and please your friends or simply unwind after a long day...  It's cocktail hour!! ~~</p>
         </div>
+      </div>
+    </div>
+  </div>
+  <div class="instructions">
+    <div class="container">
+      <div class="row">
+        <h3>Simply select a drink from one of our three categories to see your path to liquid refreshment!  Why only three categories?  Cause that's all you need.  Check it out...</h3>
       </div>
     </div>
   </div>
   <div class="container">
     <div class="row">
-      <div class="col-md-4 col-md-offset-2">
+      <div class="col-md-6">
         <ul class="list-inline">
           <li>
             <div class="dropdown">
-              <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Classics
+              <button class="btn btn-warning btn-lg dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Classics
                 <span class="caret"></span>
               </button>
               <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
@@ -113,7 +115,7 @@
           </li>
           <li>
             <div class="dropdown">
-              <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Tropicals
+              <button class="btn btn-warning btn-lg dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Tropicals
                 <span class="caret"></span>
               </button>
               <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
@@ -125,7 +127,7 @@
           </li>
           <li>
             <div class="dropdown">
-              <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Margaritas
+              <button class="btn btn-warning btn-lg dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Margaritas
                 <span class="caret"></span>
               </button>
               <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
@@ -137,34 +139,43 @@
           </li>
         </ul>
       </div> 
-      <div class="sendrecipe">
-        <div class="container-fluid">
-          <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal">Send Us Your Recipe</button>
-          <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">Send us your own recipe!!</h4>
-              </div>
-              <div class="modal-body">
-                <p><i>Give us the exact measurements, build procedure, any garnishes and preferred serving method for your drink...</i>
-                <textarea class="form-control" rows="2"></textarea>
-                <form>
-                </p>
-                  <div class="form-group">
-                    <label for="InputName"><i>Your name</i></label>
-                    <input type="name" class="form-control" id="InputName" placeholder="Name">
-                  </div>
-                  <div class="form-group">
-                    <label for='InputEmail'><i>Your Email</i></label>
-                    <input type="email" class="form-control" id="InputEmail" placeholder="Email">
-                  </div>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-primary" data-dismiss="modal">Send</button>
-                  </div>
-                </form>
+      <div class="col-md-2 col-md-offset-3">
+        <div class="sendrecipe">
+          <div class="container-fluid">
+            <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#myModal">Send Us Your Favorite Recipe!!</button>
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title" id="myModalLabel">Do you have a favorite drink recipe to share??</h4>
+                </div>
+                <div class="modal-body">
+                  <p><i>Give us the exact measurements, build procedure, any garnishes and preferred serving method for your drink...</i>
+                  <textarea class="form-control" rows="2"></textarea>
+                  <form>
+                  </p>
+                    <div class="form-group">
+                      <label for="InputName"><i>Your name</i></label>
+                      <input type="name" class="form-control" id="InputName" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                      <label for='InputEmail'><i>Your Email</i></label>
+                      <input type="email" class="form-control" id="InputEmail" placeholder="Email">
+                    </div>
+                    </div>
+                    <div class="modal-footer">
+                      <div class="row">
+                        <div class="col-md-3">
+                          <img src="images/logosm.png" alt="DrinkLogo" class="img-responsive">
+                        </div>
+                        <div class="col-md-2 col-md-offset-7">
+                          <button type="button" class="btn btn-primary" data-dismiss="modal">Send</button>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
               </div>
             </div>
           </div>
@@ -180,7 +191,6 @@
             <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
             <li data-target="#carousel-example-generic" data-slide-to="1"></li>
             <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
           </ol>
           <div class="carousel-inner" role="listbox">
             <div class="item active">
@@ -516,39 +526,6 @@
         <div class="col-md-5">
         <textarea class="form-control" rows="3">Your thoughts...</textarea>
         <input class="btn btn-default" type="submit" value="Submit">
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="sendrecipe">
-    <div class="container-fluid">
-      <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Click to Send Us Your Recipe</button>
-      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title" id="myModalLabel">Send us your own recipe!!</h4>
-          </div>
-          <div class="modal-body">
-            <p><i>Give us the exact measurements, build procedure, any garnishes and preferred serving method for your drink...</i>
-            <textarea class="form-control" rows="2"></textarea>
-            <form>
-            </p>
-              <div class="form-group">
-                <label for="InputName"><i>Your name</i></label>
-                <input type="name" class="form-control" id="InputName" placeholder="Name">
-              </div>
-              <div class="form-group">
-                <label for='InputEmail'><i>Your Email</i></label>
-                <input type="email" class="form-control" id="InputEmail" placeholder="Email">
-              </div>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-primary" data-dismiss="modal">Send</button>
-              </div>
-            </form>
-          </div>
         </div>
       </div>
     </div>
