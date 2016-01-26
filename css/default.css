@@ -18,13 +18,6 @@ div.header {
   font-size: 22px;
 }
 
-/*.findit {
-  height: 100px;
-  margin-bottom: 33px;
-  border-bottom: inset;
-  background-color: #6e6256;
-}*/
-
 .mission {
   font-size: 18px;
   border-top: ridge;
@@ -34,7 +27,12 @@ div.header {
   text-align: center;
   background-color: #6e6256;
   color: #ffffff;
+}
 
+#footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
 }
 
 .navigate {
@@ -66,9 +64,6 @@ div.header {
 div.quicknav {
   color: #6e6256;
   font-size: 1.3em;
-  /*padding: 20px;
-  margin-right: 35px;
-  display: inline;*/
 }
 
 .instructions {
@@ -78,7 +73,6 @@ div.quicknav {
 
 .sendrecipe {
   padding-top: 50px;
-  /*text-align: right;*/
 }
 
 .photos {
